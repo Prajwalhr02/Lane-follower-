@@ -1,0 +1,13 @@
+Motor Driver Connections:
+1. Connect the input pins (in1, in2, in3, in4) to the corresponding GPIO pins.
+2. Connect the enable pins (en1, en2) to the PWM-capable GPIO pins.
+3. in1 = 3, in2 = 5, in3 = 29, in4 = 31, enA = 32 and enB = 33 (GPIO.BOARD mode
+refers to the physical pin numbering on the Raspberry Pi's header)
+DC Motor Connections:
+1. Connect the DC motors to the output terminals of the motor driver.
+Power Supply:
+1. Connect the +12V input of the L298N to the external power source's positive terminal.
+2. Connect the GND input of the L298N to the external power source's negative terminal.
+3. Raspberry Pi to power bank
+Camera Module:
+1. Connect the USB camera to the dedicated camera port on the Raspberry Pi.
